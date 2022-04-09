@@ -1,0 +1,56 @@
+.header {
+  padding: 2rem 2rem;
+}
+
+input {
+  color: black;
+  background-color:#f59d9d;
+  font-family: monospace;
+  border: 0px;
+  box-sizing: content-box;
+  border-style: hidden;
+  border-collapse: collapse;
+  background-blend-mode: overlay;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.add-logo {
+  padding: 1rem;
+}
+
+.each-item {
+  display: inline-block;
+  position: relative;
+  margin: 1rem 25rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #E47676;
+  background-color: #45056E;
+}
+
+.delete-logo{
+  margin: auto;
+  padding: 2rem;
+}
+
+.item {
+  display: inline-block;
+  justify-content:start;
+  font-size: large;
+}
+
+.show-list {
+  display: grid;
+}
+
+.delete-button {
+  background-color: #8F1383;
+  color: #E47676;
+  font-family: monospace;
+  border-style: hidden;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
